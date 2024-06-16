@@ -1,0 +1,139 @@
+i{
+    cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(170, 240, 255);
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  top: 0;
+}
+
+.drawer {
+  width: 200px;
+  height: 100vh;
+  top: 0;
+  justify-content: space-between;
+  padding: 1rem;
+  flex-direction: column;
+  background: white;
+}
+
+.lefttSideDrawer {
+  position: fixed;
+  border-right: 2px solid gray;
+  z-index: 4;
+  display: none;
+}
+
+.drawerMainDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.drawerOptions {
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.drawerOptions:hover {
+  background: rgb(220, 220, 230);
+}
+
+.rightSideDrawer {
+  border-left: 2px solid gray;
+  position: fixed;
+  right: 0;
+  z-index: 4;
+  display: none;
+}
+
+.gitLinkedin {
+  position: fixed;
+  bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.gitLinkedin > i:hover {
+  color: rgb(29, 198, 238);
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  height: 85vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.main {
+  max-width: 750px;
+  width: 90%;
+  padding: 0 1rem;
+  margin: 0 auto 120px;
+  z-index: 1;
+  position: relative;
+}
+
+.questionDiv {
+  display: flex;
+  justify-content: right;
+  margin: 5rem 0 2rem 0;
+}
+
+.question {
+  width: fit-content;
+  max-width: 90%;
+  padding: 1rem;
+  background: rgb(29, 198, 238, 0.95);
+  border-radius: 1rem;
+}
+
+.answerDiv {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.answer {
+  background: rgb(233, 233, 233, 0.95);
+  width: fit-content;
+  max-width: 90%;
+  padding: 1rem 1rem 1rem 2rem;
+  border-radius: 1rem;
+}
+
+.formDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+  position: fixed;
+  bottom: 0;
+  z-index: 2;
+}
+
+.form {
+  width: 750px;
+  max-width: 95vw;
+  border: 1px solid gray;
+  padding: 0.8rem;
+  border-radius: 1rem;
+  background: white;
+}
+
+.form > button {
+  background: none;
+  border: none;
+  position: absolute;
+  margin-left: -1.2rem;
+  margin-top: 0.2rem;
+}
