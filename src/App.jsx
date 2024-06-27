@@ -54,7 +54,7 @@ function App() {
 
       response = response.replace(/<\/ul><ul>/g, "");
 
-      response = response.replace(/\n/g, "<br/>");
+      // response = response.replace(/\n/g, "<br/>");
 
       setComponents((prevComponents) => [
         ...prevComponents,
@@ -117,7 +117,7 @@ function App() {
         </div>
         <div>
           <i
-            class="bx bxs-user bx-sm"
+            className="bx bxs-user bx-sm"
             onClick={() => {
               setShowProfile(true);
               setShowMenu(false);

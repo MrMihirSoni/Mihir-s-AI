@@ -98,10 +98,10 @@ i{
   border-radius: 1rem;
 }
 
-.answerDiv {
+/* .answerDiv {
   display: flex;
   gap: 0.5rem;
-}
+} */
 
 .answer {
   background: rgb(233, 233, 233, 0.95);
@@ -122,10 +122,10 @@ i{
 }
 
 .form {
-  width: 750px;
+  width: 718px;
   max-width: 95vw;
   border: 1px solid gray;
-  padding: 0.8rem;
+  padding: 1rem;
   border-radius: 1rem;
   background: white;
 }
